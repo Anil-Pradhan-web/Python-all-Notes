@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q7 - Inline, Internal and External CSS</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        /* Internal CSS is applied to h3 and h4 using this class */
+        .center-heading {
+            text-align: center;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <!-- Inline CSS -->
+    <h1 style="color: red;">Heading 1</h1>
+    <h2 style="color: blue;">Heading 2</h2>
+
+    <!-- Internal CSS -->
+    <h3 class="center-heading">Heading 3</h3>
+    <h4 class="center-heading">Heading 4</h4>
+
+    <!-- External CSS from style.css -->
+    <h5>Heading 5</h5>
+    <p class="para">This paragraph is styled using external CSS.</p>
+</body>
+</html>

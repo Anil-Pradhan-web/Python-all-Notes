@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q9 - Hover Background Image</title>
+    <style>
+        .image-box {
+            width: 320px;
+            height: 220px;
+            border: 2px solid black;
+            background-image: url("https://picsum.photos/320/220?random=21");
+            background-size: cover;
+            background-position: center;
+        }
+;
+        .image-box:hover {
+            background-image: url("https://picsum.photos/320/220?random=22");
+        }
+    </style>
+</head>
+<body>
+    <h1>Hover Effect Example</h1>
+    <p>Move the mouse over the box to change the background image.</p>
+
+    <div class="image-box"></div>
+</body>
+</html>

@@ -1,0 +1,13 @@
+body {
+    background-color: lightgray;
+    font-family: Arial, sans-serif;
+}
+
+h5 {
+    color: green;
+}
+
+.para {
+    color: purple;
+    font-size: 18px;
+}
