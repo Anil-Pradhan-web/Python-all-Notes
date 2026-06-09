@@ -1,0 +1,72 @@
+```markdown
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.o
+*.obj
+*.out
+*.class
+*.dll
+*.so
+*.a
+*.exe
+
+# Dependencies
+.venv/
+venv/
+env/
+.env
+.env.local
+*.env.*
+node_modules/
+target/
+build/
+dist/
+*.egg-info/
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
+*.cover
+.hypothesis/
+
+# Testing
+.mypy_cache/
+.pytest_cache/
+.tox/
+.nox/
+
+# Editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+nbproject/
+
+# Distribution / packaging
+*.tar.gz
+*.whl
+*.zip
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# OS generated files
+ehthumbs.db
+Icon?
+apidoc/
+```
